@@ -12,7 +12,7 @@ class FormatInput:
             val2 = float(exp[2])
             opr = exp[1]
             return val1, val2, opr
-
+ 
         except ValueError:
             print(colored("Got anything other than numbers!","red"))
 
